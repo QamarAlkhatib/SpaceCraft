@@ -1,0 +1,44 @@
+body {
+  background-image: url("https://external-content.duckduckgo.com/iu/?u=http%3A%2F%2Fwallpapercave.com%2Fwp%2FJ3uThO5.jpg&f=1&nofb=1");
+ /* background-color: black;*/
+}
+h1 {  
+    color: white;  
+    margin-left: 20px;
+    text-align: center;
+    font-size: 45px;
+    border: 0px ;
+    padding: 35px;
+    background-image: url("https://external-content.duckduckgo.com/iu/?u=http%3A%2F%2Fwallpapercave.com%2Fwp%2FJ3uThO5.jpg&f=1&nofb=1");
+    
+  
+}
+
+li {
+  float: right;
+}
+
+a {
+  border: black;
+  color: white;
+  display: block;
+  padding: 12px;
+  font-size: 20px;
+  text-align: justify;
+}
+
+p {
+  padding: 35px;
+  background: #191919;
+  background-clip: padding-box;
+  color: white;
+  font-size: 20px;
+}
+footer {
+    background-color: #954234;
+    color: white;
+    padding: 25px;
+    background-clip: padding-box;
+    font-size: 20px;
+    text-align: justify;
+} 

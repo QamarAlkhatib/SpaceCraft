@@ -1,5 +1,3 @@
-
-language = "bash"
-=======
 language = "html"
+
 run = ""
