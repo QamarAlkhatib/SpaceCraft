@@ -2,6 +2,10 @@ var x = prompt("What is your name?")
 alert("Welcome To Space Craft  "+x)
 
 
+<<<<<<< HEAD
+=======
+
+>>>>>>> f3c5dbcc1ef7d226efb98b99fba6e85fdbea7990
 var favCom = prompt("What is your favorite space company? (Nasa, Spacex, Blue Origin, Orbital) ")
 
 if(favCom == 'Nasa'){
