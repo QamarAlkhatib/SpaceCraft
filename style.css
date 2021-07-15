@@ -44,12 +44,14 @@ footer {
 } 
 body header nav {
   background-color: #954234;
-  color: white;
   background-clip: padding-box;
   display: inline;
-  padding: 100px 50px;
+  padding: 50px 50px;
+  
+  
 }
 body header section {
-  text-align: center;
+ text-align: center;
   padding: 100px 50px;
+  
 }
