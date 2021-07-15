@@ -17,8 +17,8 @@ document.write("<div>" + "<h3 style ='color: white'  >" +favCom + "</h3>" + "<im
 }
 else if(favCom == 'Orbital'){
 document.write("<div>" + "<h3 style ='color: white' >" +favCom + "</h3>" + "<img src='https://external-content.duckduckgo.com/iu/?u=http%3A%2F%2Fwww.spaceflightinsider.com%2Fwp-content%2Fuploads%2F2014%2F04%2FAntares-Orbital-Sciences-Corporation-Wallops-Flight-Facility-WFF-Pad-0a-NASA-Commercial-Resupply-Services-photo-credit-Jason-Rhian-SpaceFlight-Insider.png&f=1&nofb=1' width='400' height='500' />" + "</div>")
-  
 }
+
 else{
     alert("Sorry!, you will not find information about " + favCom+  " here.")
 }
