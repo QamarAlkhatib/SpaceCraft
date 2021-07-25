@@ -3,6 +3,20 @@ alert("Welcome To Space Craft  "+x)
 
 var favCom = prompt("What is your favorite space company? (Nasa, SpaceX, Blue Origin, Orbital) ")
 
+function isExists(){
+
+var comp = prompt("Type here to check if there is a company you want exists in our page")
+
+if (comp == 'Nasa' || comp == 'nasa' || comp == 'SpaceX' || comp == 'Spacex' || comp == 'Blue Origin' || comp == 'blue origin' || comp == 'Orbital' || comp == 'orbital')
+  
+alert (" it's exists")
+
+else{
+  alert("Sorry its not exists here, Come back later")
+  }
+} 
+isExists();
+
 while(favCom != 'Nasa' && favCom != 'SpaceX' && favCom != 'Blue Origin' && favCom != 'Orbital'){
 
   favCom = prompt("Please Enter one of these companies, Nasa, Spacex, Blue Origin, Orbital")
@@ -26,7 +40,7 @@ else if(favCom == 'SpaceX'){
 }
 else if(favCom == 'Blue Origin'){
   for(var i = 1; i <= picNum; i++){
-document.write("<div>" + "<h3 style ='color: white'  >" +favCom + " " +i +"</h3>" + "<img src='https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Fi.pinimg.com%2Foriginals%2Ff5%2Fea%2F8d%2Ff5ea8dd2206f7a974978858c56e0e5c8.jpg&f=1&nofb=1' width='400' height='500' />" + "</div>")
+document.write("<div>" + "<h3 style ='color: white'  >" +favCom + " " +i +"</h3>" + "<img src='https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Fi.pinimg.com%2Foriginals%2Ff5%2Fea%2F8d%2Ff5ea8dd2206f7a974978858c56e0e5c8.jpg&f=1&nofb=1' width='500' height='500' />" + "</div>")
   }
 }
 
@@ -39,3 +53,4 @@ document.write("<div>" + "<h3 style ='color: white' >" +favCom + " " +i +"</h3>"
 else{
     alert("Sorry!, you will not find information about " + favCom+  " here.")
 }
+ 
