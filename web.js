@@ -3,9 +3,21 @@ alert("Welcome To Space Craft  "+x)
 
 var favCom = prompt("What is your favorite space company? (Nasa, Spacex, Blue Origin, Orbital) ")
 
-if(favCom == 'Nasa'){
-  document.write("<div>" + "<h3 style ='color: white' >" +favCom + "</h3>" + "<img src='https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Ftse3.mm.bing.net%2Fth%3Fid%3DOIP.gaxmUbWCCdUBhSRwOM1MYwHaLI%26pid%3DApi&f=1' width='400' height='500' />" + "</div>")
+while(favCom != 'Nasa' && favCom != 'Spacex' && favCom != 'Blue Origin' && favCom != 'Orbital'){
 
+  favCom = prompt("Please Enter one of these companies, Nasa, Spacex, Blue Origin, Orbital")
+}
+var picNum = prompt("How many photos you would like to see for " + favCom + " ?")
+
+while(picNum > 10){
+
+ picNum = prompt("Oh, That will crash my website :(, Please Enter a number equal or less than 10!")
+}
+
+if(favCom == 'Nasa'){
+  for(int i = 0, i > picNum; i++){
+  document.write("<div>" + "<h3 style ='color: white' >" +favCom + "</h3>" + "<img src='https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Ftse3.mm.bing.net%2Fth%3Fid%3DOIP.gaxmUbWCCdUBhSRwOM1MYwHaLI%26pid%3DApi&f=1' width='400' height='500' />" + "</div>")
+  }
 }
 else if(favCom == 'SpaceX'){
  document.write("<div>" + "<h3 style ='color: white'>" +favCom + "</h3>" + "<img src='https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Fbgr.com%2Fwp-content%2Fuploads%2F2020%2F12%2FBGRpic-Recovered-Recovered-3.jpg%3Fquality%3D70%26strip%3Dall&f=1&nofb=1' width='400' height='500' />" + "</div>")
